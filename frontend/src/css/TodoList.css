@@ -1,0 +1,91 @@
+/* CSS used to style the TodoList Component */
+
+.list-heading {
+    color: pink;
+    text-shadow: 3px 3px deeppink;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+    padding-left: 80px;
+    padding-top: 30px;
+  }
+  
+  .remove-btn {
+    background: deeppink;
+    border: 2px solid white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+    transform: translateY(-45%);
+  }
+  
+  .remove-btn:hover {
+    background-color:deeppink;
+  }
+  
+  .item-name {
+    font-size: 20px;
+    padding-right: 30px;
+  }
+  
+  .add-title {
+    color: grey;
+    text-shadow: 3px 3px darkgrey;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 0.05em;
+    padding-top: 30px;
+  }
+  
+  .add-btn {
+    background: pink;
+    border: 2px solid white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    width: 50%;
+  }
+  
+  .add-btn:hover {
+    background-color: black;
+  }
+  
+  .loggeduser {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 3rem;
+    font-size: 25px;
+  }
+  
+  .logout-btn {
+    background: pink;
+    border: 2px solid white;
+    padding: 6px 12px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 3rem;
+  }
+  
+  .logout-btn a {
+    color: white;
+  }
+  
+  .logout-btn a:hover {
+    color: white;
+    text-decoration: none;
+  }
